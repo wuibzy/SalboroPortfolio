@@ -1,0 +1,274 @@
+* {
+    margin: 0;
+    padding: 0; 
+    border: 0;
+}
+
+.margin {
+    margin-top: 11%;
+    margin-bottom: 11%;
+}
+
+.parallax {
+  
+  background: url(poster.jpg);
+  background-size: cover;
+  background-attachment: fixed;
+
+}
+
+.parallax-inner {
+    padding-top:10%;
+    padding-bottom: 10%
+}
+
+#logo {
+    background-image: url(spotifylogo.png);
+    background-size: 28%;
+    background-repeat: no-repeat;
+    background-position-x: 22px;
+    background-position-y: 22px;
+}
+
+#logo2 {
+    background-image: url(logo2.png);
+    background-repeat: no-repeat;
+    background-size: 6%;
+    background-position: center;
+    padding-top: 3%;
+    padding-bottom: 5%
+}
+
+#logo3 {
+    background-image: url(spotifylogo.png);
+    background-size: 28%;
+    background-repeat: no-repeat;
+    background-position: center;
+    padding-top: 4%;
+    padding-bottom: 8%
+}
+
+#video {
+    border-radius: 40px;
+}
+
+#titlecard{
+    background-color: #1db954;
+    width: 300px;
+    padding: 25px;
+    text-align: center;
+    font-size: 50;
+    font-family: sans-serif, Verdana; 
+    font-weight: bolder;
+    margin: 5px;
+    margin-left: auto;
+    margin-right: auto;
+    border-radius: 100px;
+  }
+
+#titlecard2 {
+    text-align: center;
+    font-size: 65px;
+    font-family: sans-serif, Verdana; 
+    font-weight: bolder;
+    color:#191414;
+    padding-bottom: 2%;
+    text-shadow: 0 0 5px #ffffff, 0 0 7px #ffffff;
+}
+
+.grid-container2 {
+    display: grid;
+    column-gap: 50px;
+    row-gap: 50px;
+    grid-template-columns: auto auto;
+    grid-template-columns: 1fr 1;
+    grid-template-rows: 1fr 1;
+    align-items: center;
+    justify-content: center;
+  }
+
+  .grid-item2 {
+    padding: 20px;
+    font-size: 30px;
+    text-align:center;
+    width: 380px;
+    height: 380px;
+  }
+
+  .ani2 {
+    width: 350px;
+    height: 350px;
+    transition: width 1s, height 1s;
+}
+
+.ani2:hover {
+    width: 380px;
+    height: 380px;
+}
+
+#item7 {
+    background-image: url(ekrl.jfif);
+    background-size: 110%;
+    background-repeat: no-repeat;
+    background-position-x: -5px;
+    border-radius: 70px;
+}
+
+#item8 {
+    background-image: url(ekshow.jpg);
+    background-size: 215%;
+    background-repeat: no-repeat;
+    background-position-x: -125px;
+    background-position-y: -30px;
+    border-radius: 70px;
+}
+
+
+  .grid-container {
+    display: grid;
+    column-gap: 50px;
+    row-gap: 50px;
+    grid-template-columns: auto auto auto ;
+    grid-template-columns: 1fr 1;
+    grid-template-rows: 1fr 1;
+    align-items: center;
+    justify-content: center;
+  }
+
+  .grid-item {
+    padding: 20px;
+    font-size: 30px;
+    text-align:center;
+    width: 260px;
+    height: 260px;
+  }
+
+
+.ani {
+    width: 240px;
+    height: 240px;
+    transition: width 1s, height 1s;
+}
+
+.ani:hover {
+    width: 258px;
+    height: 258px;
+}
+
+#pp2 {
+    font-size: 40px;
+    color: #191414;
+    font-family: sans-serif, Verdana;
+    font-weight: bold;
+    text-shadow: 0 0 5px #ffffff, 0 0 7px #ffffff;
+}
+
+#item1 {
+    background-image: url(danielek.jpg);
+    background-size: 200%;
+    background-repeat: no-repeat;
+    background-position-x: -125px;
+    border-radius: 70px;
+}
+
+#item2 {
+    background-image: url(per.jpg);
+    background-size: 250%;
+    background-repeat: no-repeat;
+    background-position-x: -190px;
+    background-position-y: -24px;
+    border-radius: 70px;
+    border-radius: 70px;
+}
+
+
+#item3 {
+    background-image: url(petra.jpg);
+    background-repeat: no-repeat;
+    background-size: 190%;
+    background-position-x: -90px;
+    background-position-y: -24px;
+    border-radius: 70px;
+}
+
+#item4 {
+    background-image: url(ehn.jpg);
+    background-repeat: no-repeat;
+    background-size: 180%;
+    background-position-x: -95px;
+    background-position-y: 0px;
+    border-radius: 70px;
+}
+
+#item5 {
+    background-image: url(martin.jpg);
+    background-repeat: no-repeat;
+    background-size: 200%;
+    background-position-x: -120px;
+    background-position-y: 0px;
+    border-radius: 70px;
+}
+
+#item6 {
+    background-image: url(bobbie.jpg);
+    background-repeat: no-repeat;
+    background-size: 200%;
+    background-position-x: -75px;
+    background-position-y: 0px;
+    border-radius: 70px;
+}
+
+#pp {
+    background-color: #191414;
+}
+
+hr {
+    border: 4px solid #1db954;
+    border-radius: 5px;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+#p1 {
+    font-family: sans-serif, Verdana;
+    font-size: 25;
+    color: white;
+    text-align: center;   
+}
+
+#t1 {
+    padding-top: 5%;
+    padding-bottom: 1.2%;
+}
+
+#t2 {
+    padding-top: 2%;
+}
+
+#t3 {
+    padding-top: 2%;
+    padding-bottom: 2%;
+}
+
+#t4 {
+    padding-top: 2%;
+}
+
+#t5 {
+    padding-top: 2%;
+    padding-bottom: 2%;
+}
+
+#t6 {
+    padding-top: 2%;
+}
+
+#t7 {
+    padding-top: 2%;
+    padding-bottom: 2%;
+}
+
+#t8 {
+    padding-top: 2%;
+    padding-bottom: 2%;
+}

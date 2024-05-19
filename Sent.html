@@ -1,0 +1,53 @@
+<html>
+
+<head>
+  <link rel="stylesheet" href="style1.css">
+  <link rel="icon" type="image/x-icon" href="images/mail.png">
+  <script src="Sent.js"></script>
+</head>
+
+<style>
+  #container {
+    animation: transitionIn 1s;}
+  
+  @keyframes transitionIn {
+    from {
+     opacity:0;
+     transform: rotateX(-20deg);}
+    to {
+     opacity:1;
+     transfrom: rotateX(0);}}
+</style>
+
+<body>
+
+
+
+<div id=container>
+
+<br><br><br><br><br><br><br><br><br><br>
+<p id=head1> MESSAGE HAS BEEN SENT </p>
+
+<center><button id="butto"><p id=head10 onclick="addText()"> Info </p></button></center><br>
+
+<p id="results" class="finally"></p>
+
+<script type="text/javascript">
+  function addText(){
+    document.getElementById('results').innerHTML = 'The message has been sent to Marrence Mariquit Salboro, please wait accordingly for his reply. Thank you!'
+  }
+
+</script>
+
+
+
+<center>
+  <img src="images/Home.png" usemap="#home">
+  <map name="home">
+  <area shape="default" href="index.html">
+  </map>
+</center>
+
+</div>
+</body
+</html>
